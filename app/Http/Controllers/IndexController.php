@@ -6,7 +6,13 @@ use Illuminate\Http\Request;
 
 class IndexController extends Controller
 {
-    public function TodoList(){
+    public function TodoList()
+    {
         return view('index');
+    }
+
+    public function test()
+    {
+        return view('test');
     }
 }

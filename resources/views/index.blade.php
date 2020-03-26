@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>My Todos</title>
+  <link rel="stylesheet" href="/css/styles.css">
   <meta name="description" content="">
   <meta name="keywords" content="">
 </head>
@@ -12,7 +13,7 @@
   <div class="container">
     <h1>Todos</h1>
     <form action="">
-      <input type="text" placeholder="What needs to be done?">
+      <input type="text" style="width:200px" placeholder="What needs to be done?">
     </form>
     <ul>
       <li>

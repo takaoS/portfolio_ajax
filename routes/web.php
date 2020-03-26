@@ -15,3 +15,5 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'IndexController@TodoList');
 //Route::post('/', 'IndexController@findPost');
+
+Route::get('/test', 'IndexController@test');
