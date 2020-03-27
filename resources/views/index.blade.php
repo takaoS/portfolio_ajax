@@ -13,18 +13,18 @@
   <div class="container">
     <h1>Todos</h1>
     <form action="">
-      <input type="text" style="width:200px" placeholder="What needs to be done?">
+      <input type="text" class="new_todo" style="width:200px" placeholder="What needs to be done?">
     </form>
     <ul>
       <li>
         <input type="checkbox">
         <span>Do something again!</span>
-        <div>x</div>
+        <div class="delete_todo">x</div>
       </li>
       <li>
         <input type="checkbox" checked>
-        <span>Do something again!</span>
-        <div>x</div>
+        <span class="done">Do something again!</span>
+        <div class="delete_todo">x</div>
       </li>
     </ul>
   </div>

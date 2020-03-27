@@ -34,3 +34,22 @@ ul {
     padding-bottom: 6px;
   }
 }
+
+.new_todo {
+  border-radius: 3px;
+  font-size: 1.6rem;
+  margin: 0 auto 15px;
+  padding: 8px;
+  width: 490px;
+}
+
+.delete_todo {
+  color: #ccc;
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+}
+
+.done {
+  text-decoration: line-through;
+}
